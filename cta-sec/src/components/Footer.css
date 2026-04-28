@@ -1,0 +1,295 @@
+.footer-container {
+  position: relative;
+  width: 100%;
+  max-width: 1124px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  background: transparent;
+  overflow: visible;
+  z-index: 1;
+}
+
+/* Background Watermark */
+.watermark {
+  position: relative;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 280px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.04);
+  z-index: -1;
+  pointer-events: none;
+  letter-spacing: -0.03em;
+  width: 100%;
+  text-align: center;
+  line-height: 0.8;
+}
+
+.footer-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 16px;
+  min-height: 320px;
+}
+
+/* Left Card (Blue) */
+.blue-card {
+  width: 340px;
+  background: url('https://i.ibb.co/rfFb8W32/Whisk-74c3c6c15cbe4248913446df9d9d91c7eg.png') center/cover no-repeat;
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #ffffff;
+}
+
+.logo-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-icon svg {
+  display: block;
+}
+
+.logo-text {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.card-middle {
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+
+.card-tagline {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.light-text {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.card-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.stay-in-touch {
+  display: inline-block;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.social-icons {
+  display: flex;
+  gap: 8px;
+}
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+  background: #111111;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.social-icon svg {
+  width: 14px;
+  height: 14px;
+}
+
+.social-icon:hover {
+  transform: translateY(-3px);
+}
+
+/* Right Card (Light Grey) */
+.grey-card {
+  flex: 1;
+  background: #f7f7f7;
+  border-radius: 20px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.grey-card-top {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.links-section {
+  display: flex;
+  gap: 100px;
+}
+
+.links-column h3.cursive-heading {
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  font-weight: 400;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.links-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.links-column ul li {
+  margin-bottom: 14px;
+}
+
+.links-column ul li a {
+  text-decoration: none;
+  color: #111;
+  font-size: 13px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.links-column ul li a:hover {
+  color: #4687ed;
+}
+
+.icon-3d-wrapper {
+  position: absolute;
+  top: -50px;
+  right: -30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-3d {
+  width: 140px;
+  height: auto;
+  filter: drop-shadow(0 15px 25px rgba(0, 0, 0, 0.1));
+  transform: rotate(5deg);
+  margin-bottom: -16px;
+}
+
+.feeling-lucky {
+  font-family: 'Dancing Script', cursive;
+  font-size: 16px;
+  color: #a0a0a0;
+  transform: rotate(-5deg) translateX(10px) translateY(-5px);
+}
+
+.grey-card-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 40px;
+}
+
+.copyright {
+  font-size: 12px;
+  color: #a0a0a0;
+  font-weight: 400;
+  padding-bottom: 12px;
+}
+
+.subscribe-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.subscribe-text {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.subscribe-text strong {
+  color: #111;
+  font-weight: 600;
+}
+
+.subscribe-form {
+  display: flex;
+  background: #ffffff;
+  padding: 6px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  width: 320px;
+}
+
+.subscribe-form input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  padding: 10px 16px;
+  font-family: inherit;
+  font-size: 12px;
+  outline: none;
+  color: #111;
+}
+
+.subscribe-form input::placeholder {
+  color: #aaa;
+}
+
+.subscribe-form button {
+  background: #111;
+  color: #ffffff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.subscribe-form button:hover {
+  background: #333;
+}
+
+@media (max-width: 800px) {
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .blue-card {
+    width: 100%;
+  }
+
+  .icon-3d-wrapper {
+    position: static;
+    transform: none;
+    margin-top: 20px;
+    align-items: flex-start;
+  }
+
+  .grey-card-bottom {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .subscribe-form {
+    width: 100%;
+  }
+}

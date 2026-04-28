@@ -1,0 +1,21 @@
+.hero-section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  background-image: url('https://i.ibb.co/FLjzFbDm/Whisk-d0b162e062cd680b0b74e1eb84f0043deg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 30px 20px;
+  }
+}

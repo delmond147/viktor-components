@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Dancing+Script:wght@600&display=swap');
+
+:root {
+  --bg-color: #ffffff;
+  --footer-bg: #f8f9fa;
+  --primary-blue: #0066ff;
+  --text-dark: #1a1a1a;
+  --text-secondary: #666666;
+  --card-blue: linear-gradient(135deg, #0052d4 0%, #4364f7 50%, #6fb1fc 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-dark);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #f0f2f5;
+  padding: 40px;
+}
