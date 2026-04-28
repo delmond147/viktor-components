@@ -1,4 +1,3 @@
-import React from 'react'
 import CardSection from './components/CardSection'
 
 function App() {
