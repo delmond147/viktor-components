@@ -21,12 +21,10 @@ const CardSection: React.FC = () => {
                         description="Your shortcut to staying ahead—delivered every morning."
                         linkText="Get Daily Briefs &rarr;"
                         icon={
-                            <svg viewBox="0 0 24 24">
-                                <path d="M7 8h10" />
-                                <path d="M7 12h10" />
-                                <path d="M9 16h6" />
-                                <path d="M6 4h12v16H6z" />
-                                <path d="M9 4v3h6V4" />
+                            <svg viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M4 8h16l-1.5 12h-13L4 8z" />
+                                <path d="M8 8V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v4" />
+                                <path d="M10 13h4" />
                             </svg>
                         }
                     />
