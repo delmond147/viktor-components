@@ -6,7 +6,7 @@
 4. run `npm install`.
 5. run `npm start`.
 
-The project will start at `http://localhost:5173`.
+The project will start at `http://localhost:3000`.
 do the same for card-sec folder and any other folder.
 
 
